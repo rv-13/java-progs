@@ -4,7 +4,7 @@ public class ReverseStringExceptFirstWord {
 
 
     public static void main(String[] args) {
-        String str = "his name is raveendra";
+        String str = "his name is Test";
         String[] strArr = str.split(" ");
         String firstString = strArr[0] + " ";
         StringBuilder sb = new StringBuilder();
@@ -17,7 +17,7 @@ public class ReverseStringExceptFirstWord {
     }
 
 
-//input - his name is raveendra
-//output - his eman si ardneevar
+//input - his name is Test
+//output - his eman si tseT
 
 }
