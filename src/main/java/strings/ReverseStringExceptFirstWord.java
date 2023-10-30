@@ -5,15 +5,15 @@ public class ReverseStringExceptFirstWord {
 
     public static void main(String[] args) {
         String str = "his name is Test";
-        String[] strArr = str.split(" ");
-        String firstString = strArr[0] + " ";
+        String[] strA = str.split(" ");
+        String First = strA[0] + " ";
         StringBuilder sb = new StringBuilder();
-        for (int i = 1; i < strArr.length; i++) {
-            sb.append(new StringBuilder(strArr[i]).reverse());
+        for (int i = 1; i < strA.length; i++) {
+
+            sb.append(new StringBuilder(strA[i]).reverse());
             sb.append(" ");
         }
-        System.out.println(firstString.concat(sb.toString()));
-
+        System.out.println(First + sb.toString());
     }
 
 
