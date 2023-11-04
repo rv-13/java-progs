@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class ReverseIndividualWords {
     public static void main(String[] args) {
-        String str = "My Name Is Bataman";
+        String str = "My Name Is Batman";
         reverseWords(str);
 
     }
