@@ -37,7 +37,7 @@ public class OccurrenceChar {
 //            }
         }
         for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + "value: " + entry.getValue());
+            System.out.println(entry.getKey() + ":-value: " + entry.getValue());
         }
         System.out.println(map.entrySet());
     }
