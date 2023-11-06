@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class OccurrenceChar {
+public class FrequencyCharSortedOrderKeys {
 
     public static void main(String[] args) {
         String str = "naggaro";
@@ -41,6 +41,10 @@ public class OccurrenceChar {
         }
         System.out.println(map.entrySet());
     }
+    //[d=1, h=2, k=1, s=1, z=3] -- Treemap
+//[s=1, d=1, h=2, z=3, k=1] -- HashMap
+//[z=3, k=1, d=1, s=1, h=2] -- LinkedHash
+//[s=1, d=1, h=2, z=3, k=1] -- ConcurrentMap
 }
 
 
