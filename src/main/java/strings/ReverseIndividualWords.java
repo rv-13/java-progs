@@ -18,15 +18,15 @@ public class ReverseIndividualWords {
                 characterStack.push(chr);
             } else {
                 while (characterStack.isEmpty() == false) {
-                    System.out.println(characterStack.pop());
+                    System.out.print(characterStack.pop());
                 }
-                System.out.println(" ");
+                System.out.print(" ");
             }
         }
         // Since there may not be space after
         // last word.
         while (characterStack.isEmpty() == false) {
-            System.out.println(characterStack.pop());
+            System.out.print(characterStack.pop());
         }
     }
 }
